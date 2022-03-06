@@ -1,0 +1,125 @@
+// scss - css3
+// sass - css
+$bg-color: rgba(255, 255, 255, 0.953);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: Helvetica;
+    src: url("/font/Helvetica.ttf");
+}
+body {
+  font-family: Helvetica;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .left{
+    width: 100%;
+    backdrop-filter: blur(1vw);
+    box-shadow: rgba(17, 17, 17, 0.124) 0vw 0.7vw 2vw 0vw;
+    background-color: rgba(255, 255, 255, 0.438);
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    font-size: 0.6vw;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0vw 0.2vw;
+    cursor: pointer;
+    font-family: Helvetica;
+}
+nav .right{
+    margin-left: 62vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    font-family: Helvetica;
+}
+nav .right i{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.7vw;
+    margin: 0vw 0.2vw;
+}
+span{
+    font-family: Helvetica;
+    margin: 0vw 0.4vw;
+    letter-spacing: 0.1em;
+}
+nav li{
+    margin: 0vw 0.5vw;
+}
+nav li a{
+    font-family: Helvetica;
+    text-decoration: none;
+    color: #fff;
+}
+
+.fa{
+    color: #fff;
+    margin: 0.2vw;
+}
+header {
+  backdrop-filter: blur(1vw);
+  width: 60%;
+  border-radius: 1vw;
+  text-align: center;
+  padding: 0.3vw 0.1vw;
+  box-shadow: rgba(17, 17, 17, 0.521) 0px 0.7vw 2vw 0vw;
+  background-color: rgba(255, 255, 255, 0.275);
+   position: absolute;
+   bottom: 0.5vw;
+   left: 20vw;
+   display: flex;
+ justify-content: center;
+}
+header span{
+    font-size: 3vw;
+    color: rgba(255, 255, 255, 0.144);
+    font-weight: 100;
+}
+header img {
+  width: 3vw;
+  margin: 0vw 0.2vw;
+  transition: all 0.2s ease-in-out;
+}
+header img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.icons {
+  display: flex;
+ justify-content: center;
+
+ 
+}
+
+section {
+  padding: 2vw;
+  background-image: url("/image1.jpg");
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 2vw;
+  color: #fff;
+  color: $bg-color;
+}
+
+//operator
+
+html {
+  font-size: 10.5%;
+}
